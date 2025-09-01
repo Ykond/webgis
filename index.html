@@ -1,0 +1,98 @@
+<!DOCTYPE HTML>
+<!-- ...existing code... -->
+<html>
+	<head>
+		<title>My WebGIS</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+		
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<link rel="stylesheet" href="assets/css/custom-styles.css" />
+	</head>
+    <body class="index is-preload">
+        <div id="page-wrapper">
+
+            <!-- Header -->
+            <header id="header" class="alt">
+                <h1 id="logo"><a href="index.html">North Macedonia No2</a></h1>
+                <nav id="nav"> 
+                    <ul>
+                        <li class="current"><a href="index.html">Overview</a></li>
+                        <li><a href="pages/page2.html">Results</a></li>
+                        <li><a href="pages/webgis.html">WebGIS</a></li>
+                    </ul>
+                </nav>
+            </header>
+
+            <!-- Main Content -->
+            <main id="main" class="container" style="margin-top: 40px; margin-bottom: 40px;">
+                <header class="special container">
+                    <h1 style="font-size:3em; margin-bottom: 1.5em;">Air Quality - NO2 values and exposure in North Macedonia</h1>
+                    <div class="custom-banner"></div>
+                </header>
+                <div class="row">
+                    <div class="col-12">
+                        <section style="margin-bottom: 2.5em;">
+                            <h2>Why study NO2 concentrations - effects and its sources</h2>
+                            <p>
+								Air pollution is one of the leading environmental threats to human health, responsible for millions of premature deaths each year. It affects not only respiratory and cardiovascular health but also overall quality of life and environmental sustainability. 
+								Because the issue is closely tied to urbanisation, energy use, and transportation, it has become a central focus of government agendas. Strong policies and regulations are essential to reduce emissions, protect vulnerable populations, and promote more sustainable, livable cities.
+                           <p>
+							<p>
+						   </p>     <!-- Add your paragraph here -->
+                                Nitrogen dioxide (NO₂) is one of the most harmful urban air pollutants, mainly produced by road traffic, power generation, and industrial activities. 
+								Exposure to NO₂ can irritate the lunSgs, worsen asthma, and increase the risk of chronic respiratory and cardiovascular diseases, with children and vulnerable populations most at risk. 
+								Beyond its direct health effects, NO₂ also contributes to the formation of ozone and fine particulate matter (PM2.5), amplifying air pollution’s overall impact. Because of its prevalence in cities and its strong link to fossil fuel combustion, 
+								reducing NO₂ emissions is critical for improving public health and ensuring cleaner, healthier urban environments.
+							</p>	
+							</p>
+							<p>
+								<strong>We will be focusing onS analysing NO₂ concentrations and their impact on air quality in North Macedonia mainly.</strong>
+                            </p>
+                        </section>
+                        <section style="margin-bottom: 2.5em;">
+                            <h2>Datasets used</h2>
+                            <p>
+                                <!-- Add your paragraph here -->
+                                The main datasets used to proceed with the analysis are:
+								<ul>
+									<li><strong>CAMS European air quality reanalyses</strong> This dataset provides annual air quality reanalyses for Europe based on both unvalidated and validated observations, processing Copernicus remote sensing data.</li>
+									<li><strong>ESA CCI Land-Cover</strong> which classifies land cover in 22 different categories with a 300m resolution, these source data as that of the CAMS is through Copernicus remote sensing.</li>
+									<li><strong>WorldPop</strong> is a global population data initiative that provides high-resolution, gridded population datasets for countries and regions worldwide. Using a combination of census data, satellite imagery, and geospatial modeling, WorldPop delivers detailed estimates of population distribution, density, and demographics at a fine spatial scale.</li>
+									<li><strong>FAO GAUL administrative boundaries</strong> The GAUL compiles and disseminates the best available information on administrative units for all the countries in the world, providing a contribution to the standardization of the spatial dataset representing administrative units. </li>
+								</ul>
+                            </p>
+                        </section>
+                        <section>
+                            <h2>Main methodology and tools</h2>
+                            <p>
+                                <!-- Add your paragraph here -->
+                               Using the prementioned datasets, the course, through this excersize requires us to analyze No2 concentrations in, in this case, North Macedonia, spatially using <STRONG>GIS tools and software (QGIS) </STRONG>to provide a geolocalized corellation study between these concentrations, the population densities and landuse. The specific functions will be mentioned in the results page, but it involves the processesing of vector and raster data. The second part of the excersize requires us to create a webgis and HTML website - ergo this page - which would require the use of the <strong>WebGIS platform, FileZilla FTP, GITHUB, and Visual Studio.</strong>
+                            </p>
+							<a href="pages/page2.html" class="button primary" style="margin-top: 1em;">See the results</a>
+                        </section>
+                    </div>
+                </div>
+            </main>
+
+            <!-- Footer -->
+            <footer id="footer">
+                <ul class="copyright">
+                    <li>&copy; BY YAZAN KONDAKJI - GROUP 25 - GIS COURSE 2025 PROF. MARIA ANTONIA BROVELLI</li><li>Design: <a href="https://html5up.net">HTML5 UP</a></li>
+                </ul>
+            </footer>
+
+        </div>
+
+        <!-- Scripts -->
+        <script src="/polimi-webgis-class-2025/js/jquery.min.js"></script>
+        <script src="/polimi-webgis-class-2025/js/jquery.dropotron.min.js"></script>
+        <script src="/polimi-webgis-class-2025/js/jquery.scrolly.min.js"></script>
+        <script src="/polimi-webgis-class-2025/js/jquery.scrollex.min.js"></script>
+        <script src="/polimi-webgis-class-2025/js/browser.min.js"></script>
+        <script src="/polimi-webgis-class-2025/js/breakpoints.min.js"></script>
+        <script src="/polimi-webgis-class-2025/js/util.js"></script>
+        <script src="/polimi-webgis-class-2025/js/main.js"></script>
+    </body>
+</html>
