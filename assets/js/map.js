@@ -22,7 +22,7 @@ let osm = new Tile({
 
 
 let cams = new Image({
-    title: "Macedonia_CAMS_no2_2022_rendered",
+    title: "Macedonia_CAMS_no2_2022",
     source: new ImageWMS({
         url: 'https://www.gis-geoserver.polimi.it/geoserver/wms',
         params: { 'LAYERS': 'gisgeoserver_25:Macedonia_CAMS_no2_2022' }
@@ -101,7 +101,7 @@ let overlayLayers = new Group({
         averageNo2_2022,
         aadMap2022,
         no2Concentration2020,
-        bivariateNo2_2020
+        bivariateNo2_2020,
     ]
 });
 

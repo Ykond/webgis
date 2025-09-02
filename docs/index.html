@@ -1,241 +1,97 @@
 <!DOCTYPE HTML>
-<!--
-	Twenty by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
--->
+<!-- ...existing code... -->
 <html>
 	<head>
 		<title>My WebGIS</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		
-		<link rel="stylesheet" crossorigin href="/polimi-webgis-class-2025/assets/custom-styles-B5SX8yzr.css">
-		<link rel="stylesheet" crossorigin href="/polimi-webgis-class-2025/assets/main-B4ctt81z.css">
+		<link rel="stylesheet" crossorigin href="/polimi-webgis-class-2025/assets/custom-styles-BkOQzlFR.css">
+		<link rel="stylesheet" crossorigin href="/polimi-webgis-class-2025/assets/main-Dffv1FTu.css">
 	</head>
-	<body class="index is-preload">
-		<div id="page-wrapper">
+    <body class="index is-preload">
+        <div id="page-wrapper">
 
-			<!-- Header -->
-				<header id="header" class="alt">
-					<h1 id="logo"><a href="index.html">My WebGIS</a></h1>
-					<nav id="nav"> 
-						<ul>
-							<li class="current"><a href="index.html">HOME</a></li>
-							<li class="current"><a href="pages/page2.html">Page 2</a></li>
-							<li class="current"><a href="pages/webgis.html">WebGIS</a></li>
-						</ul>
-					</nav>
-				</header>
+            <!-- Header -->
+            <header id="header" class="alt">
+                <h1 id="logo"><a href="index.html">North Macedonia No2</a></h1>
+                <nav id="nav"> 
+                    <ul>
+                        <li class="current"><a href="index.html">Overview</a></li>
+                        <li><a href="pages/page2.html">Results</a></li>
+                        <li><a href="pages/webgis.html">WebGIS</a></li>
+                    </ul>
+                </nav>
+            </header>
 
-			<!-- Banner -->
-				<div id="banner" class="custom-banner">
-					<div class="banner-transparency"></div>
+            <!-- Main Content -->
+            <main id="main" class="container" style="margin-top: 40px; margin-bottom: 40px;">
+                <header class="special container">
+                    <h1 style="font-size:3em; margin-bottom: 1.5em;">Air Quality - NO2 values and exposure in North Macedonia</h1>
+                    <div class="custom-banner"></div>
+                </header>
+                <div class="row">
+                    <div class="col-12">
+                        <section style="margin-bottom: 2.5em;">
+                            <h2>Why study NO2 concentrations - effects and its sources</h2>
+                            <p>
+								Air pollution is one of the leading environmental threats to human health, responsible for millions of premature deaths each year. It affects not only respiratory and cardiovascular health but also overall quality of life and environmental sustainability. 
+								Because the issue is closely tied to urbanisation, energy use, and transportation, it has become a central focus of government agendas. Strong policies and regulations are essential to reduce emissions, protect vulnerable populations, and promote more sustainable, livable cities.
+                           <p>
+							<p>
+						   </p>     <!-- Add your paragraph here -->
+                                Nitrogen dioxide (NO₂) is one of the most harmful urban air pollutants, mainly produced by road traffic, power generation, and industrial activities. 
+								Exposure to NO₂ can irritate the lunSgs, worsen asthma, and increase the risk of chronic respiratory and cardiovascular diseases, with children and vulnerable populations most at risk. 
+								Beyond its direct health effects, NO₂ also contributes to the formation of ozone and fine particulate matter (PM2.5), amplifying air pollution’s overall impact. Because of its prevalence in cities and its strong link to fossil fuel combustion, 
+								reducing NO₂ emissions is critical for improving public health and ensuring cleaner, healthier urban environments.
+							</p>	
+							</p>
+							<p>
+								<strong>We will be focusing onS analysing NO₂ concentrations and their impact on air quality in North Macedonia mainly.</strong>
+                            </p>
+                        </section>
+                        <section style="margin-bottom: 2.5em;">
+                            <h2>Datasets used</h2>
+                            <p>
+                                <!-- Add your paragraph here -->
+                                The main datasets used to proceed with the analysis are:
+								<ul>
+									<li><strong>CAMS European air quality reanalyses</strong> This dataset provides annual air quality reanalyses for Europe based on both unvalidated and validated observations, processing Copernicus remote sensing data.</li>
+									<li><strong>ESA CCI Land-Cover</strong> which classifies land cover in 22 different categories with a 300m resolution, these source data as that of the CAMS is through Copernicus remote sensing.</li>
+									<li><strong>WorldPop</strong> is a global population data initiative that provides high-resolution, gridded population datasets for countries and regions worldwide. Using a combination of census data, satellite imagery, and geospatial modeling, WorldPop delivers detailed estimates of population distribution, density, and demographics at a fine spatial scale.</li>
+									<li><strong>FAO GAUL administrative boundaries</strong> The GAUL compiles and disseminates the best available information on administrative units for all the countries in the world, providing a contribution to the standardization of the spatial dataset representing administrative units. </li>
+								</ul>
+                            </p>
+                        </section>
+                        <section>
+                            <h2>Main methodology and tools</h2>
+                            <p>
+                                <!-- Add your paragraph here -->
+                               Using the prementioned datasets, the course, through this excersize requires us to analyze No2 concentrations in, in this case, North Macedonia, spatially using <STRONG>GIS tools and software (QGIS) </STRONG>to provide a geolocalized corellation study between these concentrations, the population densities and landuse. The specific functions will be mentioned in the results page, but it involves the processesing of vector and raster data. The second part of the excersize requires us to create a webgis and HTML website - ergo this page - which would require the use of the <strong>WebGIS platform, FileZilla FTP, GITHUB, and Visual Studio.</strong>
+                            </p>
+							<a href="pages/page2.html" class="button primary" style="margin-top: 1em;">See the results</a>
+                        </section>
+                    </div>
+                </div>
+            </main>
 
-					<!--
-						".inner" is set up as an inline-block so it automatically expands
-						in both directions to fit whatever's inside it. This means it won't
-						automatically wrap lines, so be sure to use line breaks where
-						appropriate (<br />).
-					-->
-					<div class="inner">
+            <!-- Footer -->
+            <footer id="footer">
+                <ul class="copyright">
+                    <li>&copy; BY YAZAN KONDAKJI - GROUP 25 - GIS COURSE 2025 PROF. MARIA ANTONIA BROVELLI</li><li>Design: <a href="https://html5up.net">HTML5 UP</a></li>
+                </ul>
+            </footer>
 
-						<header>
-							<h2>My WebGIS</h2>
-						</header>
-						<p>Based on <strong>Twenty</strong>, a free
-						<br />
-						responsive template
-						<br />
-						by <a href="https://html5up.net">HTML5 UP</a>.</p>
-						<footer>
-							<ul class="buttons stacked">
-								<li><a href="#main" class="button fit scrolly">Tell Me More</a></li>
-							</ul>
-						</footer>
+        </div>
 
-					</div>
-
-				</div>
-
-			<!-- Main -->
-				<article id="main">
-
-					<header class="special container">
-						<span class="icon solid fa-chart-bar"></span>
-						<h2>Usually here, you would put general information on your website or any interesting information.</h2>
-						<br />
-						<p>Templates are good because you do not have to focus on <strong>design</strong> but can focus on what is really important: communicating results.
-						<br />
-						This template is minimally designed, it is visually nice, and is easy to understand.
-						<br />
-						It is also released for free under the <a href="https://html5up.net/license">Creative Commons Attribution 3.0</a> license. Have fun!</p>
-					</header>
-
-					<!-- One -->
-						<div class="wrapper style2 container special-alt">
-							<div class="row gtr-50">
-								<div class="col-8 col-12-narrower">
-
-									<header>
-										<h2>Examples of icons that you can use using the library <strong>Font Awesome</strong>.</h2>
-									</header>
-									<p>This is not Latin or any weird language. It is sample text that developers use to fill the gaps of templates. It is called <strong>Lorem Ipsum</strong> <br><br>Lorem Ipsum dolor sit amet tristique purus vitae volutpat ultrices. Aliquam eu elit eget arcu comteger ut fermentum lorem. Lorem ipsum dolor sit amet. Sed tristique purus vitae volutpat ultrices. eu elit eget commodo.</p>
-									<footer>
-										<ul class="buttons">
-											<li><a href="https://fontawesome.com/v5/search?m=free" target="_blank" class="button">Find more icons</a></li>
-										</ul>
-									</footer>
-
-								</div>
-								<div class="col-4 col-12-narrower imp-narrower">
-
-									<ul class="featured-icons">
-										<li><span class="icon fa-clock"><span class="label">Feature 1</span></span></li>
-										<li><span class="icon solid fa-volume-up"><span class="label">Feature 2</span></span></li>
-										<li><span class="icon solid fa-laptop"><span class="label">Feature 3</span></span></li>
-										<li><span class="icon solid fa-inbox"><span class="label">Feature 4</span></span></li>
-										<li><span class="icon solid fa-lock"><span class="label">Feature 5</span></span></li>
-										<li><span class="icon solid fa-cog"><span class="label">Feature 6</span></span></li>
-									</ul>
-
-								</div>
-							</div>
-						</div>
-
-					<!-- Two -->
-						<div class="wrapper style1 container special">
-							<div class="row">
-								<div class="col-4 col-12-narrower">
-
-									<div>
-										<span class="icon solid featured fa-check"></span>
-										<header>
-											<h3>This is Something</h3>
-										</header>
-										<p>Sed tristique purus vitae volutpat ultrices. Aliquam eu elit eget arcu commodo suscipit dolor nec nibh. Proin a ullamcorper elit, et sagittis turpis. Integer ut fermentum.</p>
-									</div>
-
-								</div>
-								<div class="col-4 col-12-narrower">
-
-									<div>
-										<span class="icon solid featured fa-check"></span>
-										<header>
-											<h3>Also Something</h3>
-										</header>
-										<p>Sed tristique purus vitae volutpat ultrices. Aliquam eu elit eget arcu commodo suscipit dolor nec nibh. Proin a ullamcorper elit, et sagittis turpis. Integer ut fermentum.</p>
-									</div>
-
-								</div>
-								<div class="col-4 col-12-narrower">
-
-									<div>
-										<span class="icon solid featured fa-check"></span>
-										<header>
-											<h3>Probably Something</h3>
-										</header>
-										<p>Sed tristique purus vitae volutpat ultrices. Aliquam eu elit eget arcu commodo suscipit dolor nec nibh. Proin a ullamcorper elit, et sagittis turpis. Integer ut fermentum.</p>
-									</div>
-
-								</div>
-							</div>
-						</div>
-
-					<!-- Three -->
-						<div class="wrapper style3 container special">
-
-							<header class="major">
-								<h2>You can also remove stuff that you do not need!</h2>
-							</header>
-
-							<div class="row">
-								<div class="col-6 col-12-narrower">
-
-									<div>
-										<a href="#" class="image featured"><img src="/polimi-webgis-class-2025/assets/pic01-CK5HrNaw.jpg" alt="" /></a>
-										<header>
-											<h3>A Really Fast Train</h3>
-										</header>
-										<p>Sed tristique purus vitae volutpat commodo suscipit amet sed nibh. Proin a ullamcorper sed blandit. Sed tristique purus vitae volutpat commodo suscipit ullamcorper sed blandit lorem ipsum dolore.</p>
-									</div>
-
-								</div>
-								<div class="col-6 col-12-narrower">
-
-									<div>
-										<a href="#" class="image featured"><img src="/polimi-webgis-class-2025/assets/pic02-DR99E6bK.jpg" alt="" /></a>
-										<header>
-											<h3>An Airport Terminal</h3>
-										</header>
-										<p>Sed tristique purus vitae volutpat commodo suscipit amet sed nibh. Proin a ullamcorper sed blandit. Sed tristique purus vitae volutpat commodo suscipit ullamcorper sed blandit lorem ipsum dolore.</p>
-									</div>
-
-								</div>
-							</div>
-							<div class="row">
-								<div class="col-6 col-12-narrower">
-
-									<div>
-										<a href="#" class="image featured"><img src="/polimi-webgis-class-2025/assets/pic03-I3tfgljG.jpg" alt="" /></a>
-										<header>
-											<h3>Hyperspace Travel</h3>
-										</header>
-										<p>Sed tristique purus vitae volutpat commodo suscipit amet sed nibh. Proin a ullamcorper sed blandit. Sed tristique purus vitae volutpat commodo suscipit ullamcorper sed blandit lorem ipsum dolore.</p>
-									</div>
-
-								</div>
-								<div class="col-6 col-12-narrower">
-
-									<div>
-										<a href="#" class="image featured"><img src="/polimi-webgis-class-2025/assets/pic04-CqJEiik-.jpg" alt="" /></a>
-										<header>
-											<h3>And Another Train</h3>
-										</header>
-										<p>Sed tristique purus vitae volutpat commodo suscipit amet sed nibh. Proin a ullamcorper sed blandit. Sed tristique purus vitae volutpat commodo suscipit ullamcorper sed blandit lorem ipsum dolore.</p>
-									</div>
-
-								</div>
-							</div>
-						</div>
-
-				</article>
-
-			<!-- CTA -->
-				<div id="cta">
-					<header>
-						<h2>Ready to do <strong>something</strong>?</h2>
-						<p>This is an example website for the GIS Class of Politecnico di Milano - 2023/2024.</p>
-					</header>
-					<footer>
-						<ul class="buttons">
-							<li><a href="pages/webgis.html" class="button primary">Go To the WebGIS</a></li>
-							<li><a href="pages/page2.html" class="button">Go to page 2</a></li>
-						</ul>
-					</footer>
-
-				</div>
-
-			<!-- Footer -->
-				<footer id="footer">
-
-					<ul class="copyright">
-						<li>&copy; My WebGIS</li><li>Design: <a href="https://html5up.net">HTML5 UP</a></li>
-					</ul>
-
-				</footer>
-
-		</div>
-
-		<!-- Scripts -->
-		<script src="/polimi-webgis-class-2025/js/jquery.min.js"></script>
-		<script src="/polimi-webgis-class-2025/js/jquery.dropotron.min.js"></script>
-		<script src="/polimi-webgis-class-2025/js/jquery.scrolly.min.js"></script>
-		<script src="/polimi-webgis-class-2025/js/jquery.scrollex.min.js"></script>
-		<script src="/polimi-webgis-class-2025/js/browser.min.js"></script>
-		<script src="/polimi-webgis-class-2025/js/breakpoints.min.js"></script>
-		<script src="/polimi-webgis-class-2025/js/util.js"></script>
-		<script src="/polimi-webgis-class-2025/js/main.js"></script>
-
-	</body>
+        <!-- Scripts -->
+        <script src="/polimi-webgis-class-2025/js/jquery.min.js"></script>
+        <script src="/polimi-webgis-class-2025/js/jquery.dropotron.min.js"></script>
+        <script src="/polimi-webgis-class-2025/js/jquery.scrolly.min.js"></script>
+        <script src="/polimi-webgis-class-2025/js/jquery.scrollex.min.js"></script>
+        <script src="/polimi-webgis-class-2025/js/browser.min.js"></script>
+        <script src="/polimi-webgis-class-2025/js/breakpoints.min.js"></script>
+        <script src="/polimi-webgis-class-2025/js/util.js"></script>
+        <script src="/polimi-webgis-class-2025/js/main.js"></script>
+    </body>
 </html>
