@@ -101,7 +101,7 @@ let overlayLayers = new Group({
         averageNo2_2022,
         aadMap2022,
         no2Concentration2020,
-        bivariateNo2_2020,
+        bivariateNo2_2020
     ]
 });
 
